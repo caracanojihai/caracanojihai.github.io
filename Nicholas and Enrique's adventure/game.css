@@ -1,0 +1,94 @@
+body{
+	background-color: black;
+}
+#gameBoard{
+	border:1px solid black;
+	display:grid;
+	grid-template-columns:120px 120px 120px 120px 120px;
+	grid-template-rows:120px 120px 120px 120px 120px;
+	justify-content: center;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+		background-image:url("images/background.png");
+	
+}
+#gameBoard div{
+	
+	background-repeat:no-repeat;
+
+
+}
+.rider{
+background-image:url("images/rider.png");
+}
+.obstacle{
+	background-image:url("images/obstacle.png");
+}
+.obstacle2{
+	background-image:url("images/obstacle2.png");
+}
+.target{
+	background-image:url("images/target.png");
+}
+.hurdle{
+	background-image:url("images/hurdle.png");
+}
+.hurdleup{
+	background-image:url("images/hurdleup.png");
+}
+.hole{
+	background-image:url("images/hole.png");
+}
+.lbright{
+	background-image:url("images/lbright.png");
+}
+.lbleft{
+	background-image:url("images/lbleft.png");
+}
+.lbup{
+	background-image:url("images/lbup.png");
+}
+.lbdown{
+	background-image:url("images/lbdown.png");
+}
+.lbrideup{
+	background-image:url("images/lbrideup.png");
+}
+.lbridedown{
+	background-image:url("images/lbridedown.png");
+}
+.lbrideleft{
+	background-image:url("images/lbrideleft.png");
+}
+.lbrideright{
+	background-image:url("images/lbrideright.png");
+}
+.jumpup{
+	background-image:url("images/lbfenceup.png");
+}
+.jumpright{
+	background-image:url("images/lbfenceright.png");
+}
+.jumpleft{
+	background-image:url("images/lbfenceleft.png");
+}
+.jumpdown{
+	background-image:url("images/lbfencedown.png");
+}
+.enemyup{
+	background-image:url("images/lbenemyup.png");
+}
+.enemydown{
+	background-image:url("images/lbenemydown.png");
+}
+.enemyright{
+	background-image:url("images/lbenemyright.png");
+}
+.enemyleft{
+	background-image:url("images/lbenemyleft.png");
+}
+.bridge{
+	background-color:#800020 !important;
+}
