@@ -1,22 +1,22 @@
 body{
-	background-color: black;
+background-color: black;
 }
 #gameBoard{
-	border:1px solid black;
-	display:grid;
-	grid-template-columns:120px 120px 120px 120px 120px;
-	grid-template-rows:120px 120px 120px 120px 120px;
-	justify-content: center;
-	width:600px;
-	height:600px;
-	margin-left:auto;
-	margin-right:auto;
-		background-image:url("images/background.png");
-	
+border:1px solid black;
+display:grid;
+grid-template-columns:120px 120px 120px 120px 120px;
+grid-template-rows:120px 120px 120px 120px 120px;
+justify-content: center;
+width:600px;
+height:600px;
+margin-left:auto;
+margin-right:auto;
+background-image:url("images/background.png");
+
 }
 #gameBoard div{
-	
-	background-repeat:no-repeat;
+
+background-repeat:no-repeat;
 
 
 }
@@ -24,71 +24,87 @@ body{
 background-image:url("images/rider.png");
 }
 .obstacle{
-	background-image:url("images/obstacle.png");
+background-image:url("images/obstacle.png");
 }
 .obstacle2{
-	background-image:url("images/obstacle2.png");
+background-image:url("images/obstacle2.png");
 }
 .target{
-	background-image:url("images/target.png");
+background-image:url("images/target.png");
 }
 .hurdle{
-	background-image:url("images/hurdle.png");
+background-image:url("images/hurdle.png");
 }
 .hurdleup{
-	background-image:url("images/hurdleup.png");
+background-image:url("images/hurdleup.png");
 }
 .hole{
-	background-image:url("images/hole.png");
+background-image:url("images/hole.png");
 }
 .lbright{
-	background-image:url("images/lbright.png");
+background-image:url("images/lbright.png");
 }
 .lbleft{
-	background-image:url("images/lbleft.png");
+background-image:url("images/lbleft.png");
 }
 .lbup{
-	background-image:url("images/lbup.png");
+background-image:url("images/lbup.png");
 }
 .lbdown{
-	background-image:url("images/lbdown.png");
+background-image:url("images/lbdown.png");
 }
 .lbrideup{
-	background-image:url("images/lbrideup.png");
+background-image:url("images/lbrideup.png");
 }
 .lbridedown{
-	background-image:url("images/lbridedown.png");
+background-image:url("images/lbridedown.png");
 }
 .lbrideleft{
-	background-image:url("images/lbrideleft.png");
+background-image:url("images/lbrideleft.png");
 }
 .lbrideright{
-	background-image:url("images/lbrideright.png");
+background-image:url("images/lbrideright.png");
 }
 .jumpup{
-	background-image:url("images/lbfenceup.png");
+background-image:url("images/lbfenceup.png");
 }
 .jumpright{
-	background-image:url("images/lbfenceright.png");
+background-image:url("images/lbfenceright.png");
 }
 .jumpleft{
-	background-image:url("images/lbfenceleft.png");
+background-image:url("images/lbfenceleft.png");
 }
 .jumpdown{
-	background-image:url("images/lbfencedown.png");
+background-image:url("images/lbfencedown.png");
 }
 .enemyup{
-	background-image:url("images/lbenemyup.png");
+background-image:url("images/lbenemyup.png");
 }
 .enemydown{
-	background-image:url("images/lbenemydown.png");
+background-image:url("images/lbenemydown.png");
 }
 .enemyright{
-	background-image:url("images/lbenemyright.png");
+background-image:url("images/lbenemyright.png");
 }
 .enemyleft{
-	background-image:url("images/lbenemyleft.png");
+background-image:url("images/lbenemyleft.png");
 }
 .bridge{
-	background-color:#800020 !important;
+background-color:#800020 !important;
+}
+.message{
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-family:Verdana,sans-serif;
+	font-size:8em;
+	vertical-align:top;
+	text-align:center;
+	line-height:100vh;
+	
 }
